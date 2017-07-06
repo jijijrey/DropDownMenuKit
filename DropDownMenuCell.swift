@@ -30,6 +30,7 @@ open class DropDownMenuCell : UITableViewCell {
 	
 	public init() {
 		super.init(style: .default, reuseIdentifier: NSStringFromClass(DropDownMenuCell.self))
+        self.selectionStyle = .none
 	}
 
 	required public init?(coder aDecoder: NSCoder) {
