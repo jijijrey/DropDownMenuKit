@@ -19,7 +19,7 @@ open class DropDownMenuCell : UITableViewCell {
 	}
 	open var menuAction: Selector!
 	open weak var menuTarget: AnyObject!
-	open var showsCheckmark = true
+	open var showsCheckmark = false
     open var rowHeight: CGFloat = 44
     
 	// MARK: - Initialization

@@ -54,6 +54,7 @@ class ViewController: UIViewController, DropDownMenuDelegate {
 		let firstCell = DropDownMenuCell()
 		
 		firstCell.textLabel!.text = "Large"
+        firstCell.textLabel!.textAlignment = .center
         firstCell.menuAction = #selector(ViewController.choose(_:))
 		firstCell.menuTarget = self
 		if currentChoice == "Large" {
@@ -63,6 +64,7 @@ class ViewController: UIViewController, DropDownMenuDelegate {
 		let secondCell = DropDownMenuCell()
 		
 		secondCell.textLabel!.text = "Small"
+        secondCell.textLabel!.textAlignment = .center
         secondCell.rowHeight = 60
 		secondCell.menuAction = #selector(ViewController.choose(_:))
 		secondCell.menuTarget = self

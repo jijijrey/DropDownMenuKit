@@ -88,6 +88,7 @@ open class DropDownMenu : UIView, UITableViewDataSource, UITableViewDelegate, UI
 		
 		menuView = UITableView(frame: CGRect(origin: CGPoint.zero, size: frame.size))
 		menuView.autoresizingMask = .flexibleWidth
+        menuView.separatorStyle = .none
 		menuView.isScrollEnabled = false
 
 		contentView.addSubview(menuView)
